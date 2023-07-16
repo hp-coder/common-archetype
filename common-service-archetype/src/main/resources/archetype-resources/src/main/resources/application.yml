@@ -1,0 +1,18 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+spring:
+  application:
+    name: ${appName}
+  profiles:
+    active: @profiles.active@
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: @nacos.url@
+#        namespace: public
+#      config:
+#        server-addr: @nacos.url@
+#        namespace: public
+#        group: DEFAULT_GROUP
+#        fileExtension: yaml
