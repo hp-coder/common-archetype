@@ -6,6 +6,6 @@
         <artifactId>common-archetypes</artifactId>
         <version>1.0.0-sp3-SNAPSHOT</version>
     </parent>
-    <artifactId>common-service-archetype</artifactId>
+    <artifactId>common-spring-boot-starter-archetype</artifactId>
     <version>1.0.0-sp3-SNAPSHOT</version>
 </project>

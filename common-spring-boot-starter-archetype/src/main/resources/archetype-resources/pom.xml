@@ -3,9 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.luban</groupId>
-        <artifactId>common-archetypes</artifactId>
+        <artifactId>common-starters</artifactId>
         <version>1.0.0-sp3-SNAPSHOT</version>
     </parent>
-    <artifactId>common-service-archetype</artifactId>
+
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
     <version>1.0.0-sp3-SNAPSHOT</version>
+
+    <properties></properties>
+    <dependencies></dependencies>
+    <build></build>
+
 </project>

@@ -20,3 +20,17 @@ mvn archetype:generate  \
 -DarchetypeGroupId=com.luban \
 -DarchetypeVersion=1.0.0-sp3-SNAPSHOT
 ```
+
+
+springboot-starter工程模版执行
+```shell
+mvn archetype:generate  \
+-DgroupId=com.luban \
+-DartifactId=demosrv \
+-Dversion=1.0.0-sp3-SNAPSHOT \
+-Dpackage=com.luban.demo \
+-DappName=demo-srv \
+-DarchetypeArtifactId=common-spring-boot-starter-archetype \
+-DarchetypeGroupId=com.luban \
+-DarchetypeVersion=1.0.0-sp3-SNAPSHOT
+```
