@@ -4,12 +4,12 @@
     <parent>
         <groupId>com.luban</groupId>
         <artifactId>common-starters</artifactId>
-        <version>1.0.0-sp3-SNAPSHOT</version>
+        <version>1.0.0-sp3.2-SNAPSHOT</version>
     </parent>
 
     <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
-    <version>1.0.0-sp3-SNAPSHOT</version>
+    <version>1.0.0-sp3.2-SNAPSHOT</version>
 
     <properties></properties>
     <dependencies></dependencies>
