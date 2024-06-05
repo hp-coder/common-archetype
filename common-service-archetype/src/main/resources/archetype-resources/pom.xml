@@ -4,16 +4,17 @@
     <parent>
         <groupId>com.luban</groupId>
         <artifactId>common-bom</artifactId>
-        <version>1.0.0-sp3-SNAPSHOT</version>
+        <version>1.0.1-sp3.2-SNAPSHOT</version>
     </parent>
 
     <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
-    <version>1.0.0-sp3-SNAPSHOT</version>
+    <version>1.0.0-sp3.2-SNAPSHOT</version>
 
     <properties>
-        <code-gen-starter.version>1.0.0-sp3-SNAPSHOT</code-gen-starter.version>
-        <jpa-starter.version>1.0.0-sp3-SNAPSHOT</jpa-starter.version>
+        <code-gen-starter.version>1.0.3-sp3.2-SNAPSHOT</code-gen-starter.version>
+        <jpa-starter.version>1.0.1-sp3.2-SNAPSHOT</jpa-starter.version>
+        <spring-cloud-openfeign.version>4.1.0</spring-cloud-openfeign.version>
     </properties>
 
     <dependencies>
@@ -49,6 +50,11 @@
 <!--            <groupId>com.alibaba.nacos</groupId>-->
 <!--            <artifactId>nacos-client</artifactId>-->
 <!--            <version>1.4.3</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-openfeign</artifactId>-->
+<!--            <version>${spring-cloud-openfeign.version}</version>-->
 <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -171,6 +177,16 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <compilerArgument>-Xlint:unchecked</compilerArgument>
                     <annotationProcessorPaths>
+<!--                        <path>-->
+<!--                            <groupId>org.springframework.cloud</groupId>-->
+<!--                            <artifactId>spring-cloud-starter-openfeign</artifactId>-->
+<!--                            <version>${spring-cloud-openfeign.version}</version>-->
+<!--                        </path>-->
+                        <path>
+                            <groupId>com.luban</groupId>
+                            <artifactId>jpa-common-spring-boot-starter</artifactId>
+                            <version>${jpa-starter.version}</version>
+                        </path>
                         <path>
                             <groupId>com.luban</groupId>
                             <artifactId>code-gen-common-spring-boot-starter</artifactId>

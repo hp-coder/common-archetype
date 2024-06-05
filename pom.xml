@@ -1,48 +1,61 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>com.luban</groupId>
-    <artifactId>common-bom</artifactId>
-    <version>1.0.0-sp3-SNAPSHOT</version>
-  </parent>
+    <parent>
+        <groupId>com.luban</groupId>
+        <artifactId>common-bom</artifactId>
+        <version>1.0.1-sp3.2-SNAPSHOT</version>
+    </parent>
 
-  <artifactId>common-archetypes</artifactId>
-  <version>1.0.0-sp3-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <artifactId>common-archetypes</artifactId>
+    <version>1.0.0-sp3.2-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <developers>
-    <developer>
-      <name>hupeng</name>
-      <email>hup_dev@outlook.com</email>
-    </developer>
-  </developers>
+    <developers>
+        <developer>
+            <id>hup_dev</id>
+            <name>hupeng</name>
+            <email>hup_dev(at)outlook.com</email>
+            <roles>
+                <role>Developer</role>
+                <role>Architect</role>
+            </roles>
+            <timezone>+8</timezone>
+            <url>https://github.com/hp-coder/</url>
+        </developer>
+    </developers>
 
-  <modules>
-    <module>common-service-archetype</module>
-    <module>common-spring-boot-starter-archetype</module>
-  </modules>
+    <issueManagement>
+        <system>Gitea</system>
+        <url>https://data.lubanlebiao.com:3000/lebiao-dev/common-archetypes/issues</url>
+    </issueManagement>
 
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.archetype</groupId>
-        <artifactId>archetype-packaging</artifactId>
-        <version>3.1.1</version>
-      </extension>
-    </extensions>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>${maven.compiler.source}</source>
-          <target>${maven.compiler.target}</target>
-          <encoding>${project.build.sourceEncoding}</encoding>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+    <modules>
+        <module>common-service-archetype</module>
+        <module>common-spring-boot-starter-archetype</module>
+        <module>common-cola-service-archetype</module>
+    </modules>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>3.1.1</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
