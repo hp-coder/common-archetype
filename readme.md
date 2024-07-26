@@ -18,7 +18,7 @@ mvn archetype:generate  \
 -DappName=demo-srv \
 -DarchetypeArtifactId=common-service-archetype \
 -DarchetypeGroupId=com.luban \
--DarchetypeVersion=1.0.0-sp3-SNAPSHOT
+-DarchetypeVersion=1.0.0-sp3.2-SNAPSHOT
 ```
 
 
@@ -32,5 +32,5 @@ mvn archetype:generate  \
 -DappName=demo-srv \
 -DarchetypeArtifactId=common-spring-boot-starter-archetype \
 -DarchetypeGroupId=com.luban \
--DarchetypeVersion=1.0.0-sp3-SNAPSHOT
+-DarchetypeVersion=1.0.0-sp3.2-SNAPSHOT
 ```

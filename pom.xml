@@ -34,7 +34,7 @@
     <modules>
         <module>common-service-archetype</module>
         <module>common-spring-boot-starter-archetype</module>
-        <module>common-cola-service-archetype</module>
+        <module>common-ddd-archetype</module>
     </modules>
 
     <build>
