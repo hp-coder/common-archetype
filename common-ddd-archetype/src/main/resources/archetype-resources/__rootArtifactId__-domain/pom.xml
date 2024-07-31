@@ -37,4 +37,66 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <!-- or a newer version -->
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                    <!-- -J only works when the fork is true -->
+                    <fork>true</fork>
+                    <compilerArgs>
+                        <!--orm option supports both 'jpa' and 'mybatis' -->
+                        <arg>-Aorm=jpa</arg>
+                        <!--<arg>-Aorm=mybatis</arg>-->
+
+                        <!--The mapping.mode option supports 'mapstruct' and 'jackson' -->
+                        <arg>-Amapping.mode=mapstruct</arg>
+                        <!--<arg>-Amapping.mode=jackson</arg>-->
+
+                        <!-- -J means the option is one of the Java options described on java command -->
+                        <arg>-J-Duser.name=hp</arg>
+                    </compilerArgs>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.springframework.cloud</groupId>
+                            <artifactId>spring-cloud-starter-openfeign</artifactId>
+                            <version>4.1.0</version>
+                        </path>
+                        <path>
+                            <groupId>com.luban</groupId>
+                            <artifactId>jpa-common-spring-boot-starter</artifactId>
+                            <version>1.0.2-sp3.2-SNAPSHOT</version>
+                        </path>
+                        <path>
+                            <groupId>com.luban</groupId>
+                            <artifactId>code-gen-common-spring-boot-starter</artifactId>
+                            <version>1.0.5-sp3.2-SNAPSHOT</version>
+                        </path>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.mapstruct</groupId>
+                            <artifactId>mapstruct-processor</artifactId>
+                            <version>${mapstruct.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok-mapstruct-binding</artifactId>
+                            <version>${lombok-mapstruct-binding.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

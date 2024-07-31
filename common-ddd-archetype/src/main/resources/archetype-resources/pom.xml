@@ -15,7 +15,7 @@
     <modules>
         <module>${rootArtifactId}-api</module>
         <module>${rootArtifactId}-app</module>
-        <module>${rootArtifactId}-client</module>
+        <module>${rootArtifactId}-feign-service</module>
         <module>${rootArtifactId}-domain</module>
         <module>${rootArtifactId}-infrastructure</module>
         <module>${rootArtifactId}-model</module>

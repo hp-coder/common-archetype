@@ -64,7 +64,7 @@
             </fileSets>
         </module>
 
-        <module id="${rootArtifactId}-client" dir="__rootArtifactId__-client" name="${rootArtifactId}-client">
+        <module id="${rootArtifactId}-feign-service" dir="__rootArtifactId__-feign-service" name="${rootArtifactId}-feign-service">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
