@@ -9,6 +9,9 @@
         <requiredProperty key="appName">
             <defaultValue>default-application</defaultValue>
         </requiredProperty>
+        <requiredProperty key="package">
+            <defaultValue>${groupId}</defaultValue>
+        </requiredProperty>
     </requiredProperties>
 
     <modules>

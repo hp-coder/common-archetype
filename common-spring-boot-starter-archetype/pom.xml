@@ -8,4 +8,6 @@
     </parent>
     <artifactId>common-spring-boot-starter-archetype</artifactId>
     <version>1.0.0-sp3.2-SNAPSHOT</version>
+    <packaging>maven-archetype</packaging>
+
 </project>

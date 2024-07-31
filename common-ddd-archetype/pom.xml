@@ -8,5 +8,6 @@
     </parent>
     <artifactId>common-ddd-archetype</artifactId>
     <version>1.0.0-sp3.2-SNAPSHOT</version>
+    <packaging>maven-archetype</packaging>
 
 </project>
