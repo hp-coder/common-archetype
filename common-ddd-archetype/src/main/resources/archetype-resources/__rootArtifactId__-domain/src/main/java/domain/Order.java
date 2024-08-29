@@ -4,15 +4,15 @@
 package ${package}.domain;
 
 
-import com.luban.codegen.annotation.api.GenApi;
-import com.luban.codegen.annotation.app.GenApp;
-import com.luban.codegen.annotation.domain.GenDomain;
-import com.luban.codegen.annotation.feignservice.GenFeignService;
-import com.luban.codegen.annotation.infrastructure.GenInfrastructure;
-import com.luban.codegen.annotation.model.GenModel;
-import com.luban.common.base.aggreateroot.AggregateRoot;
-import com.luban.common.base.annotation.FieldDesc;
-import com.luban.common.base.enums.ValidStatus;
+import com.hp.codegen.annotation.api.GenApi;
+import com.hp.codegen.annotation.app.GenApp;
+import com.hp.codegen.annotation.domain.GenDomain;
+import com.hp.codegen.annotation.feignservice.GenFeignService;
+import com.hp.codegen.annotation.infrastructure.GenInfrastructure;
+import com.hp.codegen.annotation.model.GenModel;
+import com.hp.common.base.aggreateroot.AggregateRoot;
+import com.hp.common.base.annotation.FieldDesc;
+import com.hp.common.base.enums.ValidStatus;
 import lombok.Getter;
 import lombok.Setter;
 

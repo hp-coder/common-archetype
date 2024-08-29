@@ -35,7 +35,7 @@ logging:
   level:
     root: info
   file:
-    path: logs-luban/${rootArtifactId}/${spring.application.name}
+    path: logs-hp/${rootArtifactId}/${spring.application.name}
   logback:
     rollingpolicy:
       max-history: 30

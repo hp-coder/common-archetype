@@ -39,7 +39,7 @@ logging:
     org.hibernate.engine.query.HQLQueryPlan: debug
     org.hibernate.type.descriptor.sql.BasicBinder: trace
   file:
-    path: logs-luban/${rootArtifactId}/${spring.application.name}
+    path: logs-hp/${rootArtifactId}/${spring.application.name}
   logback:
     rollingpolicy:
       max-history: 30

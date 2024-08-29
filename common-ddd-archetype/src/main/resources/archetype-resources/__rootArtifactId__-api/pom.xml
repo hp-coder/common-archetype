@@ -21,7 +21,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.luban</groupId>
+            <groupId>com.hp</groupId>
             <artifactId>common-base</artifactId>
             <scope>provided</scope>
         </dependency>

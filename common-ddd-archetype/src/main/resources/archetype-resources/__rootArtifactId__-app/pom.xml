@@ -26,7 +26,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.luban</groupId>
+            <groupId>com.hp</groupId>
             <artifactId>biz-logger-common-spring-boot-starter</artifactId>
             <scope>provided</scope>
         </dependency>

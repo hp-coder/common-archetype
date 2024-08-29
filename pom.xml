@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.luban</groupId>
+        <groupId>com.hp</groupId>
         <artifactId>common-bom</artifactId>
         <version>1.0.1-sp3.2-SNAPSHOT</version>
     </parent>
@@ -25,11 +25,6 @@
             <url>https://github.com/hp-coder/</url>
         </developer>
     </developers>
-
-    <issueManagement>
-        <system>Gitea</system>
-        <url>https://data.lubanlebiao.com:3000/lebiao-dev/common-archetypes/issues</url>
-    </issueManagement>
 
     <modules>
         <module>common-service-archetype</module>

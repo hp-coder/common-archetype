@@ -4,5 +4,5 @@
 //@QueryEntities(value = {BaseJpaAggregate.class})
 //package ${package};
 //
-//import com.luban.jpa.BaseJpaAggregate;
+//import com.hp.jpa.BaseJpaAggregate;
 //import com.querydsl.core.annotations.QueryEntities;

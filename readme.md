@@ -11,13 +11,13 @@
 service工程模板执行
 ```shell
 mvn archetype:generate  \
--DgroupId=com.luban \
+-DgroupId=com.hp \
 -DartifactId=demosrv \
 -Dversion=1.0.0-sp3-SNAPSHOT \
--Dpackage=com.luban.demo \
+-Dpackage=com.hp.demo \
 -DappName=demo-srv \
 -DarchetypeArtifactId=common-service-archetype \
--DarchetypeGroupId=com.luban \
+-DarchetypeGroupId=com.hp \
 -DarchetypeVersion=1.0.0-sp3.2-SNAPSHOT
 ```
 
@@ -25,12 +25,12 @@ mvn archetype:generate  \
 springboot-starter工程模版执行
 ```shell
 mvn archetype:generate  \
--DgroupId=com.luban \
+-DgroupId=com.hp \
 -DartifactId=demosrv \
 -Dversion=1.0.0-sp3-SNAPSHOT \
--Dpackage=com.luban.demo \
+-Dpackage=com.hp.demo \
 -DappName=demo-srv \
 -DarchetypeArtifactId=common-spring-boot-starter-archetype \
--DarchetypeGroupId=com.luban \
+-DarchetypeGroupId=com.hp \
 -DarchetypeVersion=1.0.0-sp3.2-SNAPSHOT
 ```

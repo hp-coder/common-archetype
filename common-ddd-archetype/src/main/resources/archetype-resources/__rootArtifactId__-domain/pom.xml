@@ -21,25 +21,25 @@
         </dependency>
 
         <dependency>
-            <groupId>com.luban</groupId>
+            <groupId>com.hp</groupId>
             <artifactId>common-base</artifactId>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.luban</groupId>
+            <groupId>com.hp</groupId>
             <artifactId>code-gen-common-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.luban</groupId>
+            <groupId>com.hp</groupId>
             <artifactId>id-common-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.luban</groupId>
+            <groupId>com.hp</groupId>
             <artifactId>join-in-memory-common-spring-boot-starter</artifactId>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.luban</groupId>
+            <groupId>com.hp</groupId>
             <artifactId>lazyloader-common-spring-boot-starter</artifactId>
             <scope>provided</scope>
         </dependency>
@@ -77,12 +77,12 @@
                             <version>4.1.0</version>
                         </path>
                         <path>
-                            <groupId>com.luban</groupId>
+                            <groupId>com.hp</groupId>
                             <artifactId>jpa-common-spring-boot-starter</artifactId>
                             <version>1.0.2-sp3.2-SNAPSHOT</version>
                         </path>
                         <path>
-                            <groupId>com.luban</groupId>
+                            <groupId>com.hp</groupId>
                             <artifactId>code-gen-common-spring-boot-starter</artifactId>
                             <version>1.0.5-sp3.2-SNAPSHOT</version>
                         </path>
